@@ -1,0 +1,147 @@
+[data-theme="dark"] {
+    --default-bg: #232323;
+    --paper-bg: #303030;
+    --card-bg: #1c1c1c;
+    --body-bg: #121212;
+    --primary-text-color: #FFFFFF;
+    --divider: #303030;
+    --card-red: #ff0000;
+}
+
+/* Customize Bootstrap */
+html[data-theme="dark"] .navbar-light .navbar-nav .nav-link, 
+html[data-theme="dark"] .navbar-light .navbar-nav .nav-link:hover, 
+html[data-theme="dark"] .navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+html[data-theme="dark"] .dropdown-item.active, 
+html[data-theme="dark"] .dropdown-item:active {
+    background-color: #eceff0 !important;
+    color: #888888 !important;
+}
+html[data-theme="dark"] .dropdown-header {
+    color: #fff !important;
+}
+html[data-theme="dark"] .dropdown-menu {
+   background: #232323 none repeat scroll 0 0;
+   border-color: #232323;
+}
+html[data-theme="dark"] .dropdown-menu .dropdown-item {
+    color: #d8d8d8;
+}
+html[data-theme="dark"] .dropdown-item{
+   color: #d8d8d8;
+}
+html[data-theme="dark"] .dropdown-item:focus, 
+html[data-theme="dark"] .dropdown-item:hover {
+   background-color: #4c4c4c;
+}
+html[data-theme="dark"] .dropdown-divider {
+    border-top: 1px solid #353535;
+}
+
+/* sidebar */
+html[data-theme="dark"] .channel-sidebar-list {
+    border-color: #2e2e2e;
+}
+html[data-theme="dark"] .sidebar {
+    background: #1c1c1c !important;
+}
+
+/* slider */
+html[data-theme="dark"] .category-item img, 
+html[data-theme="dark"] .box, 
+html[data-theme="dark"] .category-item, 
+html[data-theme="dark"] .right-action-link span, 
+html[data-theme="dark"] .video-card-image, 
+html[data-theme="dark"] .video-card,
+html[data-theme="dark"] .channels-card,
+html[data-theme="dark"] .single-channel-nav,
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .video-slider-right-list{
+    box-shadow: none !important;
+}
+html[data-theme="dark"] .video-slider-right-list::-webkit-scrollbar {
+    background-color: #1c1c1c;
+}
+
+html[data-theme="dark"] .category-item a:hover,
+html[data-theme="dark"] .video-title a:hover,
+html[data-theme="dark"] .single-video-left a:hover,
+html[data-theme="dark"] .single-video-left a:active,
+html[data-theme="dark"] .right-action-link:hover,
+html[data-theme="dark"] .right-action-link:active,
+html[data-theme="dark"] .single-video-info-content a:hover,
+html[data-theme="dark"] .single-video-info-content a:active {
+    color: #fff !important;
+}
+html[data-theme="dark"] .custom-slick-btn {
+    background: #333333 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+html[data-theme="dark"] .custom-slick-btn:hover {
+    background: #1c2224 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+
+html[data-theme="dark"] .right-action-link span{
+    background: #333333 none repeat scroll 0 0 !important;
+}
+
+/* video card */
+html[data-theme="dark"] .video-title a ,
+html[data-theme="dark"] .channels-title a {
+    color: #fff !important;
+}
+html[data-theme="dark"] .channels-card::after {
+	background: #333333 none repeat scroll 0 0;
+}
+html[data-theme="dark"] .channels-card:hover::after {
+	background: #484848 none repeat scroll 0 0;
+}
+
+/* Footer */
+html[data-theme="dark"] footer.sticky-footer {
+	background-color: var(--default-bg);
+}
+html[data-theme="dark"] .footer-list ul li a {
+	color: #eceff0;
+}
+html[data-theme="dark"] footer .contact-info {
+	color: #eceff0;
+}
+html[data-theme="dark"] footer .contact-info a {
+	color: #fff !important;
+}
+html[data-theme="dark"] .text-dark{
+    color: #fff !important;
+}
+html[data-theme="dark"] .bg-white{
+    background-color: var(--default-bg) !important;
+}
+/* pagination */
+html[data-theme="dark"] .pagination .page-link{
+    color: #fff !important;
+}
+
+html[data-theme="dark"] .single-video-info-content .tag-cloud-link{
+    background: #333 none repeat scroll 0 0;
+}
+html[data-theme="dark"] .single-video-info-content .tag-cloud-link:hover{
+    background: #000 none repeat scroll 0 0;
+}
+
+html[data-theme="dark"] .reviews-members-header .text-black{
+    color: #fff !important;
+}
+
+html[data-theme="dark"] .single-video-comment-tabs .nav.nav-tabs .nav-link.active,
+html[data-theme="dark"] .single-video-comment-tabs .nav.nav-tabs .nav-link:hover {
+	border-color: var(--card-red) !important;
+	background-color: var(--card-bg) !important;
+	color: #fff !important;
+}
+
+html[data-theme="dark"] .progress{
+    background-color: var(--paper-bg) !important;
+}

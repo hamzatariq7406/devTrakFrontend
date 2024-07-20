@@ -1,0 +1,9 @@
+[data-theme="light"] {
+    --default-bg: #FFFFFF;
+    --paper-bg: #eceff0;
+    --card-bg: #FFFFFF;
+    --body-bg: #fafafa;
+    --primary-text-color: #333;
+    --divider: #eceff0;
+    --card-red: #ff516b;
+}
